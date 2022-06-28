@@ -11,7 +11,10 @@ const Main = () => {
     <Card className={classes.root}>
       <CardHeader title="Expense Tracker" subheader="" />
       <CardContent>
-         
+         <Typography align='center' variant='h5'></Typography>
+         <Typography variant='subtitle1' style={{lineHeight: '1.5em', marginTop: '20px' }}>
+            Enter Income and Expenses
+         </Typography>
          <Divider />
             <Form />
       </CardContent>
