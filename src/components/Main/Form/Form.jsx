@@ -32,9 +32,9 @@ const Form = () => {
   return (
     <Grid container spacing={2} >
       <Grid item xs={12}>
-         <Typography align='center' variant='subtitle2' gutterBottom >
+         {/* <Typography align='center' variant='subtitle2' gutterBottom >
             ...
-         </Typography>
+         </Typography> */}
       </Grid>
       <Grid item xs={6} >
          <FormControl fullWidth>
