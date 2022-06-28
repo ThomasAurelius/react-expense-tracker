@@ -16,13 +16,13 @@ const App = () => {
          {/*<Grid item xs={12} sm={3}>
             <Details title='Income' />
             </Grid> */}
-         <Grid item xs={12} sm={3}>
+         <Grid item sm={12} md={3}>
              <Main />
          </Grid>
-         <Grid item xs={12} sm={3}>
+         <Grid item sm={12} md={3}>
             <MainDetails />
          </Grid>
-         <Grid item xs={12} sm={5}>
+         <Grid item sm={12} md={5}>
             <Totals />
          </Grid>
          {/*<Grid item xs={12} sm={3}>
