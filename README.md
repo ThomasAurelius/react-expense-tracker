@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+
+# React Expense Tracker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project also employs Doughnut/chartjs-2, material-ui & uuid.
 
 ## Available Scripts
 
@@ -14,57 +16,64 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Table of contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  [Overview](#overview)
+   -  [Screenshot](#screenshot)
+   -  [Links](#links)
+-  [My process](#my-process)
+   -  [Built with](#built-with)
+   -  [What I learned](#what-i-learned)
+   -  [Continued development](#continued-development)
+   -  [Useful resources](#useful-resources)
+-  [Author](#author)
+-  [Acknowledgments](#acknowledgments)
 
-### `npm run build`
+## Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshot
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](.//src/assets/react_expense_tracker_landscape.png)
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-  Solution URL: [GitHub](https://github.com/ThomasAurelius/react_expense_tracker)
+-  Live Site URL: [Live URL](https://vercel.com/thomasaurelius/react-expense-tracker)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## My process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-  React
+-  Material UI
+-  Doughnut/chartjs-2
+-  Semantic HTML5 markup
+-  CSS custom properties
+-  Flexbox
+-  CSS Grid
+-  Mobile-first workflow
 
-## Learn More
+### What I learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This was my first project with Material-UI and I am still adjusting to its rules. Some of the grid sizing was less than intuitive at first..
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Continued development
 
-### Code Splitting
+I will continue to work on accessibility issues and improvements.
+I want to add a database for the items, SSO google login auth, and a rolling two week subtotal in the income/expenses ledger.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Useful resources
 
-### Analyzing the Bundle Size
+-  Video this build was based on: (https://www.youtube.com/watch?v=NnUFOWR_V4Y&t=8266s). I used this video for parts of the build, however I omitted the Speechly, and hosted on Vercel on my own instead of following the video.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+-  Website - [Thomas Aurelius](https://thomasaurelius.com)
+-  Frontend Mentor - [@thomasaurelius](https://www.frontendmentor.io/profile/thomasaurelius)
+-  Twitter - [@thomasaurelius4](https://www.twitter.com/thomasaurelius4)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+Kevin Powell, for being a CSS king! I've learned so much from him and his workflows, I am grateful he puts out so many awesome videos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
