@@ -70,10 +70,11 @@ I want to add a database for the items, SSO google login auth, and a rolling two
 ## Author
 
 -  Website - [Thomas Aurelius](https://thomasaurelius.com)
--  Frontend Mentor - [@thomasaurelius](https://www.frontendmentor.io/profile/thomasaurelius)
 -  Twitter - [@thomasaurelius4](https://www.twitter.com/thomasaurelius4)
 
 ## Acknowledgments
 
 Kevin Powell, for being a CSS king! I've learned so much from him and his workflows, I am grateful he puts out so many awesome videos.
+Brad Traversy - Traversy Media, an amazing youtube instructor!
+Leon Noel - 100devs instructor extraordinaire!
 
