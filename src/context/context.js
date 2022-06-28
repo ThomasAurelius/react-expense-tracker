@@ -15,8 +15,7 @@ export const Provider = ({ children }) => {
    const addTransaction = (transaction) => dispatch({ type: 'ADD_TRANSACTION', payload: transaction })
 
    
-   return (
-      
+   return (     
 
       <ExpenseTrackerContext.Provider value={{ deleteTransaction, addTransaction, transactions }} >
          {children}
